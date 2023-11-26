@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class PostsController < ActionController::Base
+class PostsController < ApplicationController
   def index
     render plain: 'Hello, world!'
   end
